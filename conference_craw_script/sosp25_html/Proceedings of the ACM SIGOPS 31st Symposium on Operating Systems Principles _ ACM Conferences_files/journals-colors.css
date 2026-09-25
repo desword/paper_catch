@@ -1,0 +1,643 @@
+.tais {
+    --primary-color: #2c2f76;
+    --light-color: #9992b7;
+    --lighter-color: #9992b7;
+    --diff-color: #cacbeb;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.tors {
+    --primary-color: #d51a5e;
+    --light-color: #8f103d;
+    --lighter-color: #8f103d;
+    --diff-color: #1ad54c;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.pacmnet {
+    --primary-color: #a66923;
+    --light-color: #352aad;
+    --lighter-color: #352aad;
+    --diff-color: #e35412;
+    --dropdown-font-color: #ffffffde;
+    --nav-font-color: #ffffff;
+}
+
+.pacmmod {
+    --primary-color: #273a94;
+    --light-color: #787dc2;
+    --lighter-color: #787dc2;
+    --diff-color: #279482;
+    --nav-font-color: #ffffff;
+}
+
+.topml {
+    --primary-color: #002d72;
+    --light-color: #2f74db;
+    --lighter-color: #2f74db;
+    --diff-color: #007244;
+    --nav-font-color: #ffffff;
+}
+
+.csur {
+    --primary-color: #1975AE;
+    --light-color: #79C6E2;
+    --lighter-color: #B2D9E8;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.imwut {
+    --primary-color: #19513B;
+    --light-color: #318050;
+    --lighter-color: #8CBFA1;
+    --diff-color: #773D25;
+    --nav-font-color: #ffffff;
+}
+
+.jea {
+    --primary-color: #813C83;
+    --light-color: #AE83AE;
+    --lighter-color: #DC98AE;
+    --diff-color: #91986D;
+    --nav-font-color: #ffffff;
+}
+
+.acmjcss {
+    --primary-color: #de2f3a;
+    --light-color: #ec5f69;
+    --lighter-color: #eb858c;
+    --diff-color: #66b966;
+    --nav-font-color: #ffffff;
+}
+
+.jetc {
+    --primary-color: #177E25;
+    --light-color: #92CD8A;
+    --lighter-color: #D9EBD3;
+    --diff-color: #CC5650;
+    --nav-font-color: #ffffff;
+}
+
+.jrc {
+    --primary-color: #003594;
+    --light-color: #0177C1;
+    --lighter-color: #85B5DF;
+    --diff-color: #BE6F13;
+    --nav-font-color: #ffffff;
+}
+
+.jocch {
+    --primary-color: #007D4A;
+    --light-color: #72BE9D;
+    --lighter-color: #A7D6C1;
+    --diff-color: #B6491D;
+    --nav-font-color: #ffffff;
+}
+
+.jacm {
+    --primary-color: #8c5a2c;
+    --light-color: #F1BD87;
+    --lighter-color: #FBE5CF;
+    --diff-color: #47879C;
+    --nav-font-color: #ffffff;
+}
+
+.pacmhci {
+    --primary-color: #926E42;
+    --light-color: #C69A2F;
+    --lighter-color: #E0D02B;
+    --diff-color: #304E62;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+
+}
+
+.pacmpl {
+    --primary-color: #A41953;
+    --light-color: #C86B8B;
+    --lighter-color: #ECCAD4;
+    --diff-color: #6E8A4A;
+    --nav-font-color: #ffffff;
+}
+
+.pomacs {
+    --primary-color: #115878;
+    --light-color: #2E7BA6;
+    --lighter-color: #8BD5E5;
+    --diff-color: #BE6F13;
+    --nav-font-color: #ffffff;
+}
+
+.taas {
+    --primary-color: #2F7D2F;
+    --light-color: #79BA6F;
+    --lighter-color: #DBECD4;
+    --diff-color: #803838;
+    --nav-font-color: #ffffff;
+}
+
+.taccess {
+    --primary-color: #005B6F;
+    --light-color: #438B9F;
+    --lighter-color: #B6CED6;
+    --diff-color: #B35900;
+    --nav-font-color: #ffffff;
+}
+
+.---- {
+    --primary-color: #74767B;
+    --light-color: #B4B7BF;
+    --lighter-color: #D7DCE8;
+    --diff-color: #AFABA1;
+    --nav-font-color: #ffffff;
+}
+.taco {
+    --primary-color: #4B7D6C;
+    --light-color: #98BCB0;
+    --lighter-color: #DAE8E4;
+    --diff-color: #E08F66;
+    --nav-font-color: #ffffff;
+}
+
+.talg {
+    --primary-color: #3B6963;
+    --light-color: #7C9795;
+    --lighter-color: #C9D3D3;
+    --diff-color: #E08F66;
+    --nav-font-color: #ffffff;
+}
+
+.talip {
+    --primary-color: #A02A1C;
+    --light-color: #C2745D;
+    --lighter-color: #E7C6B8;
+    --diff-color: #457852;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.tallip {
+    --primary-color: #A02A1C;
+    --light-color: #C2745D;
+    --lighter-color: #E7C6B8;
+    --diff-color: #457852;
+    --nav-font-color: #ffffff;
+}
+
+.tap {
+    --primary-color: #005A9E;
+    --light-color: #6C9ECB;
+    --lighter-color: #A4C1DF;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.taslp {
+    --primary-color: #74767B;
+    --light-color: #B4B7BF;
+    --lighter-color: #D7DCE8;
+    --diff-color: #AFABA1;
+    --nav-font-color: #ffffff;
+}
+
+.tcps {
+    --primary-color: #827429;
+    --light-color: #C0B37E;
+    --lighter-color: #E4DFCA;
+    --diff-color: #6C5F8D;
+    --nav-font-color: #ffffff;
+}
+
+.teac {
+    --primary-color: #047E63;
+    --light-color: #6CAC9A;
+    --lighter-color: #CADDD5;
+    --diff-color: #BD7345;
+    --nav-font-color: #ffffff;
+}
+
+.tecs {
+    --primary-color: #9163AA;
+    --light-color: #B497C6;
+    --lighter-color: #E0D6EB;
+    --diff-color: #91986D;
+    --nav-font-color: #ffffff;
+}
+
+.thri {
+    --primary-color: #317F90;
+    --light-color: #96C7D6;
+    --lighter-color: #D9EAF0;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tiis {
+    --primary-color: #177E25;
+    --light-color: #92CD8A;
+    --lighter-color: #D9EBD3;
+    --diff-color: #CC5650;
+    --nav-font-color: #ffffff;
+}
+.jds {
+    --primary-color: #008528;
+    --light-color: #66dea6;
+    --lighter-color: #66dea6;
+	--diff-color: #8d1300;
+    --nav-font-color: #ffffff;
+    --banner: url(https://dl.acm.org/pb-assets/images/journalbanner/journal-banner-inner--jds.svg);
+}
+.acmjds {
+    --primary-color: #008528;
+    --light-color: #66dea6;
+    --lighter-color: #66dea6;
+	--diff-color: #8d1300;
+    --nav-font-color: #ffffff;
+    --banner: url(/pb-assets/images/journalbanner/journal-banner-inner--acmjds.svg);
+}
+.tissec {
+    --primary-color: #74767B;
+    --light-color: #B4B7BF;
+    --lighter-color: #D7DCE8;
+    --diff-color: #AFABA1;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.tist {
+    --primary-color: #8c5a2c;
+    --light-color: #F1BD87;
+    --lighter-color: #FBE5CF;
+    --diff-color: #47879C;
+    --nav-font-color: #ffffff;
+}
+
+.tkdd {
+    --primary-color: #A41953;
+    --light-color: #C86B8B;
+    --lighter-color: #ECCAD4;
+    --diff-color: #6E8A4A;
+    --nav-font-color: #ffffff;
+}
+
+.tmis {
+    --primary-color: #9163AA;
+    --light-color: #B497C6;
+    --lighter-color: #E0D6EB;
+    --diff-color: #9BA374;
+    --nav-font-color: #ffffff;
+}
+
+.toce {
+    --primary-color: #33461C;
+    --light-color: #737D5F;
+    --lighter-color: #C5C9BB;
+    --diff-color: #7E495F;
+    --nav-font-color: #ffffff;
+}
+
+.tochi {
+    --primary-color: #0068A7;
+    --light-color: #5198C7;
+    --lighter-color: #C1D9EC;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+.tocl {
+    --primary-color: #1975AE;
+    --light-color: #79C6E2;
+    --lighter-color: #B2D9E8;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tocs {
+    --primary-color: #047E63;
+    --light-color: #6CAC9A;
+    --lighter-color: #CADDD5;
+    --diff-color: #BD7345;
+    --nav-font-color: #ffffff;
+}
+
+.toct {
+    --primary-color: #A0501B;
+    --light-color: #C38761;
+    --lighter-color: #E7CFBC;
+    --diff-color: #116655;
+    --nav-font-color: #ffffff;
+}
+
+.todaes {
+    --primary-color: #1975AE;
+    --light-color: #79C6E2;
+    --lighter-color: #B2D9E8;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tods {
+    --primary-color: #827429;
+    --light-color: #C0B37E;
+    --lighter-color: #E4DFCA;
+    --diff-color: #6C5F8D;
+    --nav-font-color: #ffffff;
+}
+
+.tog {
+    --primary-color: #cb2a3f;
+    --light-color: #F16C6D;
+    --lighter-color: #FBD6D0;
+    --diff-color: #769F68;
+    --nav-font-color: #ffffff;
+}
+
+.tois {
+    --primary-color: #00509E;
+    --light-color: #6B80BA;
+    --lighter-color: #C4C9E3;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.toit {
+    --primary-color: #318181;
+    --light-color: #87C4C4;
+    --lighter-color: #DFF1F0;
+    --diff-color: #E0965B;
+    --nav-font-color: #ffffff;
+}
+
+.tomacs {
+    --primary-color: #C5422C;
+    --light-color: #FF8764;
+    --lighter-color: #FFD6C5;
+    --diff-color: #FFD6C5;
+    --nav-font-color: #ffffff;
+}
+
+.tomm {
+    --primary-color: #0068A7;
+    --light-color: #5198C7;
+    --lighter-color: #C1D9EC;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tompecs {
+    --primary-color: #CC1962;
+    --light-color: #E7A6AF;
+    --lighter-color: #F2CFD3;
+    --diff-color: #769466;
+    --nav-font-color: #ffffff;
+}
+
+.toms {
+    --primary-color: #6C2500;
+    --light-color: #9F684A;
+    --lighter-color: #D9C0B0;
+    --diff-color: #004830;
+    --nav-font-color: #ffffff;
+}
+
+.topc {
+    --primary-color: #CC1962;
+    --light-color: #E7A6AF;
+    --lighter-color: #F2CFD3;
+    --diff-color: #769466;
+    --nav-font-color: #ffffff;
+}
+
+.toplas {
+    --primary-color: #8c5a2c;
+    --light-color: #F1BD87;
+    --lighter-color: #FBE5CF;
+    --diff-color: #47879C;
+    --nav-font-color: #ffffff;
+}
+
+.tops {
+    --primary-color: #74767B;
+    --light-color: #B4B7BF;
+    --lighter-color: #D7DCE8;
+    --diff-color: #AFABA1;
+    --nav-font-color: #ffffff;
+}
+
+.tos {
+    --primary-color: #827429;
+    --light-color: #C0B37E;
+    --lighter-color: #E4DFCA;
+    --diff-color: #6C5F8D;
+    --nav-font-color: #ffffff;
+}
+
+.tosem {
+    --primary-color: #4F0A54;
+    --light-color: #815E87;
+    --lighter-color: #C7B9CD;
+    --diff-color: #6C7D0E;
+    --nav-font-color: #ffffff;
+}
+
+.tosn {
+    --primary-color: #CC1962;
+    --light-color: #E7A6AF;
+    --lighter-color: #F2CFD3;
+    --diff-color: #769466;
+    --nav-font-color: #ffffff;
+}
+
+.trets {
+    --primary-color: #407C96;
+    --light-color: #9BBBCD;
+    --lighter-color: #D6E1E9;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tsas {
+    --primary-color: #4A5C70;
+    --light-color: #828E9E;
+    --lighter-color: #C9CED6;
+    --diff-color: #AC936C;
+    --nav-font-color: #ffffff;
+}
+
+.tsc {
+    --primary-color: #1975AE;
+    --light-color: #8EC9EA;
+    --lighter-color: #C4E2F4;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tslp {
+    --primary-color: #317F90;
+    --light-color: #96C7D6;
+    --lighter-color: #D9EAF0;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.tweb {
+    --primary-color: #154396;
+    --light-color: #6E79B7;
+    --lighter-color: #C5C6E2;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.games {
+    --primary-color: #43054e;
+    --light-color: #7e2684;
+    --lighter-color: #c7b9cd;
+    --diff-color: #6c7d0e;
+    --nav-font-color: #ffffff;
+}
+
+.jats {
+    --primary-color: #008a20;
+    --light-color: #92CD8A;
+    --lighter-color: #D9EBD3;
+    --diff-color: #CC5650;
+    --nav-font-color: #ffffff;
+}
+
+.cie {
+    --primary-color: #51666F;
+    --light-color: #7B97A2;
+    --lighter-color: #C8D3D8;
+    --diff-color: #B0997E;
+    --nav-font-color: #ffffff;
+}
+
+.dgov {
+    --primary-color: #002E47;
+    --light-color: #0D6697;
+    --lighter-color: #1A86C0;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.health {
+    --primary-color: #003018;
+    --light-color: #006633;
+    --lighter-color: #00B65B;
+    --diff-color: #7E495F;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.tiot {
+    --primary-color: #A140BC;
+    --light-color: #CF74E9;
+    --lighter-color: #EDAFFF;
+    --diff-color: #9BA274;
+    --nav-font-color: #ffffff;
+}
+
+.dtrap {
+    --primary-color: #370008;
+    --light-color: #6C0010;
+    --lighter-color: #960117;
+    --diff-color: #457852;
+    --nav-font-color: #ffffff;
+    --dropdown-font-color: #ffffffde;
+}
+
+.tds {
+    --primary-color: #003C71;
+    --light-color: #166EBC;
+    --lighter-color: #3F9FF4;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.telo {
+    --primary-color: #9163AA;
+    --light-color: #B497C6;
+    --lighter-color: #E0D6EB;
+    --diff-color: #9BA374;
+    --nav-font-color: #ffffff;
+}
+
+.jdiq {
+    --primary-color: #4C7792;
+    --light-color: #8BA6B9;
+    --lighter-color: #D0D9E1;
+    --diff-color: #EBB97A;
+    --nav-font-color: #ffffff;
+}
+
+.pacmcgit {
+    --primary-color: #177E25;
+    --light-color: #92CD8A;
+    --lighter-color: #D9EBD3;
+    --diff-color: #D55E58;
+    --nav-font-color: #ffffff;
+}
+
+.tcbb {
+    --primary-color: #022A4C;
+    --light-color: #50839A;
+    --lighter-color: #A5C2D0;
+    --diff-color: #E49757;
+    --nav-font-color: #ffffff;
+}
+
+.ton {
+    --primary-color: #00817F;
+    --light-color: #22D1CF;
+    --lighter-color: #82FFFE;
+    --diff-color: #E49757;
+    --nav-font-color: #ffffff;
+}
+
+.sigchi {
+    --primary-color: #8a5f0f;
+    --light-color: #F1BD87;
+    --lighter-color: #FBE5CF;
+    --diff-color: #878896;
+    --nav-font-color: #ffffff;
+}
+
+.sigecom {
+    --primary-color: #037fa8;
+    --light-color: #07a7d9;
+    --lighter-color: #7fc3e1;
+    --diff-color: #F3A34C;
+    --nav-font-color: #ffffff;
+}
+
+.taisap {
+    --primary-color: #de2f3a;
+    --light-color: #ec5f69;
+    --lighter-color: #eb858c;
+    --diff-color: #66b966;
+    --nav-font-color: #ffffff;
+}
+
+.ailet {
+    --primary-color: #003594;
+    --light-color: #707ebf;
+    --lighter-color: #d1d1eb;
+    --diff-color: #007f94;
+    --nav-font-color: #ffffff;
+}
+
+.tais,.tors,.pacmmod,.topml,.csur,.imwut,.jacm,.jea,.acmjcss,.jetc,.jrc,.jocch,.pacmhci,.pacmnet,.pacmpl,.pomacs,.taas,.taccess,.taco,.talg,.talip,.tallip,
+.tap,.taslp,.tcps,.teac,.tecs,.thri,.tiis,.tissec,.tist,.tkdd,.tmis,.jds,.acmjds,.toce,.tochi,.tocl,.tocs,.toct,.todaes,.tods,.tog,.tois,.toit,.tomacs,.tomm,.tompecs,
+.toms,.topc,.toplas,.tops,.tos,.tosem,.tosn,.trets,.tsas,.tsc,.tslp,.tweb,.games,.jats,.cie,.dgov,.health,.tiot,.dtrap,.tds,.telo,.jdiq,.pacmcgit,.tcbb,
+.ton,.sigchi,.sigecom, .taisap, .ailet {
+    --nav-background-color: var(--primary-color);
+    --banner-color: var(--primary-color);
+    --logo-color: var(--primary-color);
+    --badge-color: var(--primary-color);
+    --dropdown-border-color: var(--light-color);
+    --dropdown-background-color: var(--lighter-color);
+}

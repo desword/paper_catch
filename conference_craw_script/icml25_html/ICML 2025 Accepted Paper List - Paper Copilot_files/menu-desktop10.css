@@ -1,0 +1,55 @@
+.top-menu > li ul a:before,
+.top-menu > li > a:before{
+	content: '';
+	position: absolute;
+	background-color: var(--colorMain);
+	left: auto;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	height: 1px;
+	transition: width .25s ease;
+}
+
+.top-menu > li > a:hover{
+	color: inherit;
+}
+
+.top-menu > li ul a:hover:before,
+.top-menu > li > a:hover:before{
+	left: 0;
+	right: auto;
+	width: 100%;
+}
+
+.top-menu > li ul a{
+	position: relative;
+	padding: 0 0 .25em;
+	margin: .5em 1em .25em;
+}
+
+.top-menu > li ul.sub-menu .current-menu-item > a:before{
+	left: 0;
+	right: auto;
+	width: 100%;
+}
+
+.top-menu > li:after{
+	border-radius: 2px;
+	border-color: inherit !important;
+	transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.top-menu > li:hover:after,
+.top-menu > li:focus:after,
+.top-menu > li:focus-within:after{
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.top-menu > .current-menu-parent > a:before,
+.top-menu > .current-menu-item > a:before{
+	width: 0;
+}

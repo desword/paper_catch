@@ -1,0 +1,113 @@
+.admin {
+  color:orange;
+}
+
+
+.red {
+    color:red;
+}
+
+.expired {
+  color:PeachPuff;
+}
+.green {
+    color:green;
+}
+.gray {
+    color:gray;
+}
+
+.yellow {
+    color:yellow;
+}
+.red-border {
+   border: 2px solid red;
+}
+
+.lightgray {
+    color:lightgray;
+}
+
+.yellowbackground {
+    background-color:#FFFF00;
+}
+
+.highlight {
+    background-color:#FFFF00;
+}
+
+.marker {
+    background-color:#FFFF00;
+}
+
+.graybackground {
+    background-color:#dEdEdE;
+}
+
+.graybackground {
+    background-color:#dEdEdE;
+}
+
+.lightgraybackground {
+    background-color: #EBEBEB;
+}
+
+.larger-font {
+    font-size:1.3em;
+}
+
+.smaller-font {
+    font-size:0.7em;
+}
+
+.bigger-font {
+  font-size:1.2em;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-spacer {
+    margin: 5px !important;
+}
+
+.footer {
+    text-align: center;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: #777777;
+}
+
+
+ul.paper-list {
+    list-style: none;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    ul.paper-list li::before {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+    span.suffix_legend {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+    }
+}
+
+ul.paper-list li::before {
+    font-weight: bold; /* If you want it to be bold */
+    font-size: 1.4em;
+    line-height: 1em;
+    display: inline-block;
+    width: 1.1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1.8em; /* Also needed for space (tweak if needed) */
+    color: black;
+}
+
+ul.paper-list li::before {
+    content: "\2022";
+}
+
