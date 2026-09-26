@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>Claude Done Notifier 设置</title>
+<style>
+  body { font: 14px/1.6 system-ui, sans-serif; max-width: 680px; margin: 24px auto; padding: 0 16px; }
+  h1 { font-size: 20px; } h2 { font-size: 16px; margin-top: 24px; }
+  label { display: block; margin: 8px 0; }
+  input[type=text], input[type=password], input[type=number], select, textarea { width: 100%; box-sizing: border-box; padding: 6px; }
+  .row input[type=checkbox] { margin-right: 6px; }
+  .hint { color: #666; font-size: 12px; }
+  .box { border: 1px solid #ddd; border-radius: 8px; padding: 12px; margin-top: 8px; }
+  button { padding: 6px 16px; margin-right: 8px; }
+  #status { margin-left: 8px; }
+</style>
+</head>
+<body>
+<h1>Claude Done Notifier 设置</h1>
+
+<label class="row"><input type="checkbox" id="enabled">启用</label>
+<label>收件邮箱<input type="text" id="toEmail" placeholder="you@example.com"></label>
+
+<label>发送方式
+  <select id="provider">
+    <option value="resend">Resend（推荐，免费额度，填 API Key 即可）</option>
+    <option value="emailjs">EmailJS</option>
+    <option value="webhook">自定义 Webhook（POST JSON）</option>
+    <option value="none">不发邮件，仅桌面通知</option>
+  </select>
+</label>
+
+<div class="box" data-for="resend">
+  <label>Resend API Key<input type="password" id="resendApiKey" placeholder="re_xxx"></label>
+  <label>发件人<input type="text" id="resendFrom"></label>
+  <div class="hint">在 resend.com 注册后创建 API Key。未验证域名时，发件人用 onboarding@resend.dev，且只能发给注册 Resend 的那个邮箱。</div>
+</div>
+
+<div class="box" data-for="emailjs">
+  <label>Service ID<input type="text" id="emailjsServiceId"></label>
+  <label>Template ID<input type="text" id="emailjsTemplateId"></label>
+  <label>Public Key<input type="text" id="emailjsPublicKey"></label>
+  <label>Private Key（可选，Account → Security 开启“严格模式”时需要）<input type="password" id="emailjsPrivateKey"></label>
+  <div class="hint">模板中可用变量：{{to_email}} {{subject}} {{message}} {{title}} {{url}}。
+    EmailJS 后台 Account → Security 需勾选 “Allow EmailJS API for non-browser applications”。</div>
+</div>
+
+<div class="box" data-for="webhook">
+  <label>Webhook URL<input type="text" id="webhookUrl" placeholder="https://..."></label>
+  <div class="hint">POST JSON：{to, subject, text, title, url, durationSec, reply}。可对接自己的服务器、Make / Zapier / n8n 等发邮件。</div>
+</div>
+
+<h2>行为</h2>
+<label class="row"><input type="checkbox" id="desktopNotify">同时弹出桌面通知</label>
+<label class="row"><input type="checkbox" id="onlyWhenAway">仅在我离开该标签页（不可见或窗口未聚焦）时提醒</label>
+<label class="row"><input type="checkbox" id="includeReply">邮件中附带回复开头（约 800 字，会经过第三方邮件服务）</label>
+<label>回复耗时少于多少秒不提醒<input type="number" id="minDurationSec" min="0"></label>
+<label>停止信号持续多少秒判定为完成<input type="number" id="settleSec" min="1"></label>
+<label>额外“生成中”CSS 选择器（每行一个，页面改版导致检测失效时再填）
+  <textarea id="extraBusySelectors" rows="3" placeholder='button[aria-label="Stop response"]'></textarea>
+</label>
+
+<p>
+  <button id="save">保存</button>
+  <button id="test">发送测试邮件</button>
+  <span id="status"></span>
+</p>
+
+<script src="defaults.js"></script>
+<script src="options.js"></script>
+</body>
+</html>
