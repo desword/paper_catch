@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Done Notifier",
+  "version": "1.0.0",
+  "description": "claude.ai 上 Claude 回复完成后，发送邮件 / 桌面通知提醒。",
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://claude.ai/*",
+    "https://api.resend.com/*",
+    "https://api.emailjs.com/*"
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://claude.ai/*"
+      ],
+      "js": [
+        "defaults.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html",
+  "action": {
+    "default_title": "Claude Done Notifier 设置",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
